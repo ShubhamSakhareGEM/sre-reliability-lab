@@ -1,6 +1,6 @@
 # SRE Reliability Lab
 
-A complete, local reliability engineering lab simulating a production microservice environment. This project demonstrates core Site Reliability Engineering (SRE) practices including container orchestration, observability, auto-scaling, and chaos engineering.
+I built a complete, local reliability engineering lab to simulate a production microservice environment. I made sure that the project covers core Site Reliability Engineering (SRE) practices including container orchestration, observability, auto-scaling and chaos engineering.
 
 ## System Visualizations
 
