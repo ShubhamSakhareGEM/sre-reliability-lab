@@ -64,7 +64,7 @@ Trigger the load:
 sh scripts/load-test.sh
 ```
 
-###3. Self-Healing & Chaos Engineering
+### 3. Self-Healing & Chaos Engineering
 A native Kubernetes CronJob acts as a Chaos Monkey, aggressively terminating pods to test the ReplicaSet's ability to maintain the desired state.
 
 Simulate an incident: 
@@ -72,7 +72,7 @@ Simulate an incident:
 sh scripts/incident-simulation.sh
 ```
 
-###4. GitOps & CI/CD
+### 4. GitOps & CI/CD
 Continuous Integration: GitHub Actions automatically lints dependencies and builds the Docker image on every push to the main branch.
 
 ## Continuous Deployment: 
