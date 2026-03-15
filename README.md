@@ -2,6 +2,24 @@
 
 A complete, local reliability engineering lab simulating a production microservice environment. This project demonstrates core Site Reliability Engineering (SRE) practices including container orchestration, observability, auto-scaling, and chaos engineering.
 
+## System Visualizations
+
+### 1. Observability (Prometheus & Grafana)
+*Real-time monitoring of cluster compute resources during a simulated traffic spike.*
+![Grafana Dashboard](./images/observability-dashboard.png)
+
+### 2. Auto-Scaling (Horizontal Pod Autoscaler)
+*Kubernetes dynamically scaling API replicas from 2 to 5 in response to CPU load.*
+![HPA Scaling](./images/hpa-scaling.png)
+
+### 3. Chaos Engineering & Self-Healing
+*The Kubernetes ReplicaSet instantly recovering from a simulated massive pod failure.*
+![Chaos Recovery](./images/chaos-recovery.png)
+
+### 4. Continuous Integration
+*Automated GitHub Actions pipeline linting and building the Docker container on push.*
+![CI Pipeline](./images/github-actions-success.png)
+
 ## Architecture
 
 * **Application:** Node.js Express API exposing Prometheus metrics.
