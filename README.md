@@ -1,10 +1,10 @@
 # SRE Reliability Lab
 
-I built a complete, local reliability engineering lab to simulate a production microservice environment. I made sure that the project covers core Site Reliability Engineering (SRE) practices including container orchestration, observability, auto-scaling and chaos engineering.
+I built a complete, local reliability engineering lab to simulate a production microservice environment. I made sure that the project covers core Site Reliability Engineering (SRE) practices including container orchestration, monitoring, auto-scaling and chaos engineering.
 
 ## System Visualizations
 
-### 1. Observability (Prometheus & Grafana)
+### 1. Monitoring (Prometheus & Grafana)
 *Real-time monitoring of cluster compute resources during a simulated traffic spike.*
 ![Grafana Dashboard](./images/observability-dashboard.png)
 
