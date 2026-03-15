@@ -1,0 +1,16 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: api-service-monitor
+  namespace: sre
+  labels:
+    release: prometheus # Must match the Helm release name of your prometheus stack
+spec:
+  selector:
+    matchLabels:
+      app: api
+  endpoints:
+  - port: http # Make sure your Service has this port named 'http' or use targetPort
+    targetPort: 3000
+    path: /metrics
+    interval: 10s
